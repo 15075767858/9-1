@@ -1,0 +1,496 @@
+@font-face {
+	font-family: Unna;
+	src:url(http://fonts.gstatic.com/s/unna/v8/7mwtjrX6NeQLiJlC6ov4Kg.eot);
+}
+
+ .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+    }
+    
+    .swiper-slide img {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+    
+    .closedtbt {
+        display: none;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 90%;
+        top: 5%;
+        z-index: 10000;
+        cursor: pointer;
+    }
+    #twomenu{
+      position: absolute;
+      left: 100px;
+      top:100px;
+      cursor:pointer;
+      z-index: 1001;
+    }
+
+#pcifr{
+    width: 100%;
+    height: 100%;
+    border:none;
+    position: fixed;
+    z-index: 9999;
+    top:101%;
+    
+}
+
+#datu{
+    text-align: center;
+    display:none;
+    min-width: 1000px;
+}
+#img{
+
+    margin: 0 auto;
+    padding: 50px;
+}
+#nav{
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+}
+#vlog_it{
+    display: none;
+}
+@font-face {
+    font-family: ChopinScriptRegular;
+    src:url(ChopinScript-webfont.eot?#iefix) format("embedded-opentype"), url(ChopinScript-webfont.woff) format("woff"), url(ChopinScript-webfont.ttf) format("truetype"), url(ChopinScript-webfont.svg#ChopinScriptRegular) format("svg");
+}
+@font-face {
+    font-family: squarespace-ui-font;
+    src: url('squarespace-ui-font.ttf');
+
+}
+.icon-index-grid{
+    font-family: squarespace-ui-font;
+    font-size: 40px;
+    cursor: pointer;
+}
+HTML {
+}
+BODY {
+    MIN-WIDTH: 1000px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%;height: 100%; PADDING-RIGHT: 0px; BACKGROUND: #e7e7e7; PADDING-TOP: 0px; -webkit-font-smoothing: antialiased
+}
+* {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; PADDING-LEFT: 0px; OUTLINE-WIDTH: medium; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+DIV {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+DL {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+DT {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+DD {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+UL {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+OL {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+LI {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+H1 {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+H2 {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+H3 {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+H4 {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+H5 {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+H6 {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+PRE {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+FORM {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+FIELDSET {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+INPUT {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+TEXTAREA {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+A {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+P {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+BLOCKQUOTE {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+TH {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+TD {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: baseline; PADDING-TOP: 0px
+}
+IMG {
+    BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+ADDRESS {
+    FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CAPTION {
+    FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CITE {
+    FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CODE {
+    FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+DFN {
+    FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+TH {
+    FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+VAR {
+    FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+OL {
+    LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+UL {
+    LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+H1 {
+    FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H2 {
+    FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H3 {
+    FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H4 {
+    FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H5 {
+    FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+H6 {
+    FONT-SIZE: 100%; FONT-WEIGHT: normal
+}
+article {
+    DISPLAY: block
+}
+aside {
+    DISPLAY: block
+}
+canvas {
+    DISPLAY: block
+}
+details {
+    DISPLAY: block
+}
+figcaption {
+    DISPLAY: block
+}
+figure {
+    DISPLAY: block
+}
+footer {
+    DISPLAY: block
+}
+header {
+    DISPLAY: block
+}
+hgroup {
+    DISPLAY: block
+}
+MENU {
+    DISPLAY: block
+}
+nav {
+    DISPLAY: block
+}
+section {
+    DISPLAY: block
+}
+summary {
+    DISPLAY: block
+}
+mark {
+    DISPLAY: block
+}
+A {
+    COLOR: #444; TEXT-DECORATION: none
+}
+header {
+    POSITION: absolute; TOP: -9000px
+}
+#animintro {
+    Z-INDEX: 1; POSITION: absolute; DISPLAY: none; TOP: 0px; LEFT: 0px
+}
+#vlogitwheel {
+    Z-INDEX: 2; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: -500px 0px 0px -800px; PADDING-LEFT: 0px; WIDTH: 1600px; PADDING-RIGHT: 0px; HEIGHT: 1000px; TOP: 50%; PADDING-TOP: 0px; LEFT: 50%
+}
+#logo {
+    Z-INDEX: 3; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: -142px 0px 0px -142px; PADDING-LEFT: 0px; WIDTH: 284px; PADDING-RIGHT: 0px; HEIGHT: 284px; TOP: 50%; PADDING-TOP: 0px; LEFT: 50%; border-radius: 50em
+}
+.active#logo {
+    BACKGROUND: #111; box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7)
+}
+#logo H1 {
+    Z-INDEX: 20000; POSITION: absolute;  PADDING-BOTTOM: 0px; TEXT-INDENT: -9000px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 232px; PADDING-RIGHT: 0px; DISPLAY: none; BACKGROUND: url('../images/logovlogit.png') no-repeat; HEIGHT: 134px; TOP: 70px; PADDING-TOP: 0px; LEFT: 25px
+}
+#logo #menu {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: none; PADDING-TOP: 0px
+}
+#logo #menu UL {
+    PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LIST-STYLE-IMAGE: none; PADDING-TOP: 0px
+}
+#logo #menu UL LI {
+    Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 0px; TEXT-INDENT: -9000px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#logo #menu UL LI A {
+    BORDER-BOTTOM: #333 1px solid; BORDER-LEFT: #333 1px solid; DISPLAY: block; BORDER-TOP: #333 1px solid; BORDER-RIGHT: #333 1px solid; border-radius: 0 5px 5px 0; -webkit-border-radius: 0 5px 5px 0; -moz-border-radius: 0 5px 5px 0; opacity: 0.5
+}
+#logo #menu UL LI A.current {
+    BORDER-BOTTOM: #aaa 1px solid; FILTER: alpha(opacity=100); BORDER-LEFT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px solid; border-radius: 5px 0 0 5px; -webkit-border-radius: 5px 0 0 5px; -moz-border-radius: 5px 0 0 5px; opacity: 1
+}
+#logo #menu UL LI#vmmenu A:hover {
+    BORDER-BOTTOM: #aaa 1px solid; FILTER: alpha(opacity=100); BORDER-LEFT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px solid; border-radius: 5px 0 0 5px; -webkit-border-radius: 5px 0 0 5px; -moz-border-radius: 5px 0 0 5px; opacity: 1
+}
+#logo #menu UL LI#vmmenu A.current {
+    BORDER-BOTTOM: #aaa 1px solid; FILTER: alpha(opacity=100); BORDER-LEFT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px solid; border-radius: 5px 0 0 5px; -webkit-border-radius: 5px 0 0 5px; -moz-border-radius: 5px 0 0 5px; opacity: 1
+}
+#logo #menu UL LI#ytmenu A:hover {
+    BORDER-BOTTOM: #aaa 1px solid; FILTER: alpha(opacity=100); BORDER-LEFT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px solid; border-radius: 0 5px 5px 0; -webkit-border-radius: 0 5px 5px 0; -moz-border-radius: 0 5px 5px 0; opacity: 1
+}
+#logo #menu UL LI#ytmenu A.current {
+    BORDER-BOTTOM: #aaa 1px solid; FILTER: alpha(opacity=100); BORDER-LEFT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px solid; border-radius: 0 5px 5px 0; -webkit-border-radius: 0 5px 5px 0; -moz-border-radius: 0 5px 5px 0; opacity: 1
+}
+#logo #menu UL LI#vmmenu {
+    PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 7px; TOP: 212px; PADDING-TOP: 0px; LEFT: 83px
+}
+#logo #menu UL LI#vmmenu A {
+    WIDTH: 66px; HEIGHT: 22px; border-radius: 5px 0 0 5px; -webkit-border-radius: 5px 0 0 5px; -moz-border-radius: 5px 0 0 5px
+}
+#logo #menu UL LI#ytmenu {
+    TOP: 212px; LEFT: 150px
+}
+#logo #menu UL LI#ytmenu A {
+    FILTER: alpha(opacity=50); WIDTH: 66px; HEIGHT: 22px; opacity: 0.5
+}
+#aboutmenu {
+    Z-INDEX:20000; POSITION: absolute; PADDING-BOTTOM: 0px; TEXT-INDENT: -9000px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: none; TOP: 242px; PADDING-TOP: 0px; LEFT: 99px
+}
+#aboutmenu A {
+    WIDTH: 35px; DISPLAY: block; BACKGROUND: url(../images/aboutmenu.png) no-repeat; HEIGHT: 13px; COLOR: #e7e7e7
+}
+#aboutmenu A:hover {
+
+}
+#share {
+    Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 0px; TEXT-INDENT: -9000px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: none; TOP: 240px; PADDING-TOP: 0px; LEFT: 152px
+}
+#share A {
+    Z-INDEX: 20; WIDTH: 40px; DISPLAY: block; HEIGHT: 17px
+}
+#listasoc {
+    Z-INDEX: 4; POSITION: absolute; WIDTH: 200px; BOTTOM: 10px; DISPLAY: none; HEIGHT: 60px; LEFT: 56px
+}
+#fb {
+    Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; TOP: 0px; PADDING-TOP: 0px; LEFT: 98px
+}
+#tweet {
+    Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; TOP: 0px; PADDING-TOP: 0px; LEFT: 0px
+}
+#gplus {
+    Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; TOP: 27px; PADDING-TOP: 0px; LEFT: 59px
+}
+#logodeco {
+    Z-INDEX: 3; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 284px; PADDING-RIGHT: 0px; HEIGHT: 290px; OVERFLOW: hidden; TOP: -14px; PADDING-TOP: 0px; LEFT: -8px; border-radius: 50em
+}
+#animtop {
+    Z-INDEX: 5; POSITION: absolute; DISPLAY: none; TOP: 0px; LEFT: 0px
+}
+#about {
+    Z-INDEX: 116; POSITION: absolute; PADDING-BOTTOM: 20px; MARGIN: -167px 0px 0px -296px; PADDING-LEFT: 20px; WIDTH: 552px; PADDING-RIGHT: 20px; TOP: 18%; PADDING-TOP: 20px; LEFT: 50%
+}
+#about H2 {
+    PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 25px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: none; FONT: 40px/38px "ChopinScriptRegular", Arial, sans-serif; LETTER-SPACING: -2px; COLOR: #e7e7e7; PADDING-TOP: 0px
+}
+#about #about_content {
+    MARGIN: 0px 0px 0px 25px; WIDTH: 500px; DISPLAY: none; FONT: 18px/22px "Unna", serif; COLOR: #e7e7e7
+}
+#about P {
+    PADDING-BOTTOM: 0px; MARGIN: 5px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; LETTER-SPACING: 0px; PADDING-TOP: 0px
+}
+#about P A {
+    BORDER-BOTTOM: #666 1px solid; COLOR: #fafafa
+}
+#about P A:hover {
+    BORDER-BOTTOM: #f3f3f3 1px solid
+}
+#about #infos {
+    PADDING-BOTTOM: 0px; LINE-HEIGHT: 19px; MARGIN: 7px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 15px; PADDING-TOP: 0px
+}
+#about #infos A.socialicon {
+    BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+#about #infos A IMG {
+    VERTICAL-ALIGN: middle
+}
+#about #awaawa {
+    PADDING-BOTTOM: 0px; LINE-HEIGHT: 19px; MARGIN: 7px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 15px; PADDING-TOP: 0px
+}
+#tubiamo {
+    Z-INDEX: 6; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: -167px 0px 0px -296px; PADDING-LEFT: 0px; WIDTH: 592px; PADDING-RIGHT: 0px; DISPLAY: none; BACKGROUND: #111; HEIGHT: 334px; TOP: 50%; PADDING-TOP: 0px; LEFT: 50%
+}
+#vimejo {
+    Z-INDEX: 6; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: -167px 0px 0px -296px; PADDING-LEFT: 0px; WIDTH: 592px; PADDING-RIGHT: 0px; DISPLAY: none; BACKGROUND: #111; HEIGHT: 334px; TOP: 50%; PADDING-TOP: 0px; LEFT: 50%
+}
+#videobox {
+    Z-INDEX: 4; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: -167px 0px 0px -296px; PADDING-LEFT: 0px; WIDTH: 592px; PADDING-RIGHT: 0px; DISPLAY: none; HEIGHT: 334px; TOP: 50%; PADDING-TOP: 0px; LEFT: 50%
+}
+#descr {
+    Z-INDEX: 1000; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px -296px; PADDING-LEFT: 0px; WIDTH: 500px; PADDING-RIGHT: 0px; DISPLAY: none; HEIGHT: 90px; COLOR: #eee; OVERFLOW: hidden; TOP: 50%; PADDING-TOP: 0px; LEFT: 50%
+}
+#descr H3 {
+    POSITION: absolute; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 2px; FONT: 28px/35px "ChopinScriptRegular", Arial, sans-serif; BACKGROUND: #111; LETTER-SPACING: 0px; TOP: 0px; PADDING-TOP: 2px; LEFT: -420px; box-shadow: 2px 2px 2px #111; -moz-box-shadow: 2px 2px 2px #111; -webkit-box-shadow: 2px 2px 2px #111
+}
+#descr H4 {
+    POSITION: absolute; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 2px; FONT: 18px/28px "ChopinScriptRegular", Arial, sans-serif; BACKGROUND: #111; COLOR: #ccc; TOP: 46px; PADDING-TOP: 2px; LEFT: -200px; box-shadow: 2px 2px 2px #111; -moz-box-shadow: 2px 2px 2px #111; -webkit-box-shadow: 2px 2px 2px #111
+}
+#descr H3 SPAN {
+    BORDER-BOTTOM: #ddd 1px dotted; BORDER-LEFT: #ddd 0px dotted; PADDING-BOTTOM: 2px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; BORDER-TOP: #ddd 1px dotted; BORDER-RIGHT: #ddd 1px dotted; PADDING-TOP: 0px
+}
+#descr H4 SPAN {
+    BORDER-BOTTOM: #ddd 1px dotted; BORDER-LEFT: #ddd 0px dotted; PADDING-BOTTOM: 1px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; BORDER-TOP: #ddd 1px dotted; BORDER-RIGHT: #ddd 1px dotted; PADDING-TOP: 0px
+}
+.oldie #br_mask {
+    DISPLAY: block
+}
+#br_mask {
+    Z-INDEX: 10; POSITION: absolute; FILTER: alpha(opacity=50); WIDTH: 100%; DISPLAY: none; BACKGROUND: #eee; HEIGHT: 800px; TOP: 0px; LEFT: 0px; opacity: 0.5
+}
+.oldie #browser {
+    DISPLAY: block
+}
+#browser {
+    Z-INDEX: 11; BORDER-BOTTOM: #ddd 1px solid; POSITION: absolute; BORDER-LEFT: #ddd 1px solid; PADDING-BOTTOM: 0px; MARGIN: -141px 0px 0px -205px; PADDING-LEFT: 0px; WIDTH: 410px; PADDING-RIGHT: 0px; DISPLAY: none; BACKGROUND: #fff; COLOR: #111; BORDER-TOP: #ddd 1px solid; TOP: 50%; BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 0px; LEFT: 50%
+}
+#browser H2 {
+    PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT: 45px/48px "ChopinScriptRegular", Arial, sans-serif; LETTER-SPACING: -2px; COLOR: #444; PADDING-TOP: 0px
+}
+#browser_inner {
+    BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; PADDING-BOTTOM: 20px; MARGIN: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FONT: 18px/25px "Unna", serif; COLOR: #333; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid; PADDING-TOP: 15px
+}
+#browser UL {
+    PADDING-BOTTOM: 0px; MARGIN: 10px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#browser SPAN {
+    FONT: 25px/38px "ChopinScriptRegular", Arial, sans-serif
+}
+#browser UL LI {
+    PADDING-BOTTOM: 0px; TEXT-INDENT: -9000px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-TOP: 0px
+}
+#browser UL LI A {
+    PADDING-BOTTOM: 0px; MARGIN: 0px 10px 0px 0px; PADDING-LEFT: 0px; WIDTH: 63px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/browserloghi.jpg) no-repeat; FLOAT: left; HEIGHT: 80px; PADDING-TOP: 0px
+}
+#browser UL LI#ff A {
+    BACKGROUND-POSITION: -3px -5px
+}
+#browser UL LI#chr A {
+    BACKGROUND-POSITION: -92px -5px
+}
+#browser UL LI#saf A {
+    BACKGROUND-POSITION: -178px -5px
+}
+#browser UL LI#op A {
+    BACKGROUND-POSITION: -265px -5px
+}
+#browser UL LI#inex A {
+    BACKGROUND-POSITION: -343px -5px
+}
+#close {
+    Z-INDEX: 120; POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: -187px 0px 0px 275px; PADDING-LEFT: 0px; WIDTH: 40px; PADDING-RIGHT: 0px; DISPLAY: none; HEIGHT: 40px; TOP: 50%; CURSOR: pointer; PADDING-TOP: 0px; LEFT: 50%
+}
+#closesvg {
+    Z-INDEX: 120; POSITION: absolute; MARGIN: 0px; WIDTH: 40px; HEIGHT: 40px; TOP: 0px; LEFT: 0px
+}
+#close B {
+    Z-INDEX: 122; POSITION: absolute; MARGIN: 0px; WIDTH: 40px; HEIGHT: 40px; TOP: 0px; CURSOR: pointer; LEFT: 0px
+}
+#close A {
+    Z-INDEX: 7; POSITION: absolute; WIDTH: 40px; DISPLAY: block; HEIGHT: 40px; TOP: 0px; LEFT: 0px
+}
+#bumper {
+    Z-INDEX: 9; POSITION: absolute; WIDTH: 100%; DISPLAY: none; HEIGHT: 300px; TOP: 0px; LEFT: 0px
+}
+#overlay {
+    Z-INDEX: 3; POSITION: absolute; WIDTH: 100%; DISPLAY: none; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+#social {
+    Z-INDEX: 4000; POSITION: fixed; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 300px; BOTTOM: 0px; PADDING-RIGHT: 0px; HEIGHT: 30px; RIGHT: 0px; PADDING-TOP: 0px
+}
+#social #faceframe {
+    PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 90px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+#webby {
+    Z-INDEX: 40000; POSITION: absolute; BOTTOM: 30px; DISPLAY: none; RIGHT: 30px
+}
+#checkblog {
+    Z-INDEX: 40000; POSITION: absolute; TOP: 40px; RIGHT: 0px
+}
+
+#vlogitwheel {
+    cursor:url(../cursor/hand.cur),move;
+ }
+#vlogitwheel:hover{
+
+}
+#vlogitwheel *:active,#vlogitwheel:active{
+    cursor:url(../cursor/hand-h.cur),move
+}
+
+body{
+    overflow: hidden;
+}
